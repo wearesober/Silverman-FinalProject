@@ -2,6 +2,12 @@ div.img {
     border: 2px solid #ccc;
 }
 
+/*
+    One comment here - the fact that your border is 2px when the user is not hovering over
+    the div.img, but 1px when the user is hovering is causing some layout changes when the 
+    user hovers.  If you change the border on hover to 2px, that fixes that issue.
+*/
+
 div.img:hover {
     border: 1px solid #777;
 }
@@ -30,6 +36,11 @@ div.desc {
    margin: auto;
    padding: 20 px 30 px;
 }
+
+/*
+    Another comment here - I love how you are handing the responsiveness of the images.
+    It looks very slick!
+*/
 
 @media only screen and (max-width: 700px){
     .responsive {
