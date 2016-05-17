@@ -1,3 +1,10 @@
+<!--
+  Hi Laura!
+
+  I love how you are using the Bootstrap grid.  Great job with that!  I do not have too many additional comments, but
+  they are inline below
+-->
+
 <!DOCTYPE html>
 <html>
 
@@ -26,11 +33,25 @@
 </div>
 
 <div class="row">
+  <!--
+    One hint about bootstrap - it is usually a good idea to also have a col-xs-12 class on elements that are in
+    smaller columns at larger screen sizes.  It helps bootstrap with making sure these containers look good at the
+    really small (phone) sizes).
+  -->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
+      <!--
+        The content in your alt tags should be a little more fleshed out. They are usually used by screen readers, which
+        will read that content out loud to a user with sight problems.  The alt tag should be a readable description
+        of the image
+      -->
       <img src="images/kindergarten.jpg" alt="Kind">
       <div class="caption">
         <h3>Kindergarten</h3>
+        <!-- 
+          Make sure you keep a space between attributes.  There should be a space between the data-trigger attribute and 
+          the data-toggle attribute.  Also between href and class.
+        -->
         <p><a href="#"class="btn btn-default" data-trigger="hover"data-toggle="popover" data-placement="auto" data-content="I wanted to be a flight attendant!"role="button">Factoid</a></p>
       </div>
     </div>
