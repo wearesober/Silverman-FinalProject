@@ -1,15 +1,20 @@
-.jumbotron {
-    font-family: ;
-    font-size: 1em;
+
+.nav {
+    font-family: glegoo;
+    font-weight: bold;
+    font-size: 1.5rem;
+    float: right;
+    padding: 5px;
 }
 
-.title {
-    font-family: graduate;
-    font-size: 5em;
-    text-align: center;
+#apple {
+    margin-top: 2.5%;
+    margin-left: 20%;
+    margin-bottom: 2.5%;
 }
 
 h1 {
+
     font-family: graduate;
     color: white;
     font-size: 5em;
@@ -25,6 +30,21 @@ h2 {
     margin-bottom: 10%;
 }
 
+.titleOne {
+    font-family: graduate;
+    color: black;
+    font-size: 5em;
+    text-align: center;
+ }
+
+.subTitle {
+    font-family: glegoo;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
 .btn-lg {
     color: black;
     font-weight: bold;
@@ -35,7 +55,7 @@ h2 {
 .caption {
     font-family: coming soon;
     text-align: center;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 1em;
 }
 
@@ -59,8 +79,7 @@ h2 {
   height:100%;
   padding: 10%;
   color:white;
-
-
+}
 
 .img-responsive { 
      background-image: url('images/chalkboard-background.jpg');
@@ -84,9 +103,6 @@ data-content {
     text-align: center;
 }
 
-* {
-    box-sizing: border-box;
-}
 
 .responsive {
     padding: 0 2px;
@@ -96,16 +112,19 @@ data-content {
 }
 
 .btn:hover {
-    font-family:glegoo;
+    font-family:special elite;
     font-size: 1.5rem;
     color: black;
     font-weight: bold;
     background-color: #9DF2ED;
 }
-.footer{
+footer {
     font-style: italic;
     text-align: center;
-    font-weight: bold;
+    font-weight: 800;
+    font-family: coming soon;
+    color: red;   
+
 }
 
 @media only screen and (max-width: 700px){
